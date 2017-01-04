@@ -67,6 +67,12 @@ hr.star-primary:after {
 .img-centered {
   margin: 0 auto;
 }
+#logo{
+  
+    width: 50%;
+    height: auto;
+
+}
 header {
   text-align: center;
   background: #F1DB17;
