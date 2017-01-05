@@ -10,6 +10,23 @@ body {
 p {
   font-size: 20px;
 }
+.dropdown-menu{
+  text-align: center;
+  background-color: #F1DB17;
+}
+#sneakers{
+  display: none;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: white;
+    background-color: black;
+
+}
+.about{
+  font-size: 14pt;
+  font-weight: lighter;
+}
+
 p.small {
   font-size: 16px;
 }
@@ -124,11 +141,31 @@ header .intro-text .skills {
   border: 5px solid white;
   padding: 10px 10px 10px 10px;
 }
+#sneakersbar{
+  display: none;
+}
 @media (max-width: 768px) {
+  #sneakerstitle{
+    margin-top: 30px;
+  }
+  #sneakersbar{
+  display: inline-block;
+  height: 20px;
+
+}
+.tabs{
+  margin-right: 15px;
+}
   .navbar-custom .navbar-brand {
   color: white;
   border: none;
   padding-top: 15px;
+}
+#sneakers{
+  display: block;
+}
+#sneakersdropdown{
+  display: none;
 }
 }
 .navbar-custom .navbar-brand:hover,
@@ -143,6 +180,7 @@ header .intro-text .skills {
 .navbar-custom .navbar-nav li a {
   color: white;
 }
+
 .navbar-custom .navbar-nav li a:hover {
   color: #F1DB17;
   outline: none;

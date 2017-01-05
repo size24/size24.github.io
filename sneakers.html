@@ -34,7 +34,23 @@
 </head>
 
 <body id="page-top" class="index">
+ <nav class="navbar navbar-default navbar-fixed-top navbar-custom" style="margin-top:25px;" id="sneakersbar">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll" style="text-align:center;padding-top:30px;">
+            
+                <a href="./index.html" class="tabs">Yeezy</a>
+                <a  href="./index.html" class="tabs">NMD</a>
+                <a href="./index.html" class="tabs">Ultra Boost</a>
+            </div>
 
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            
+            <!-- /.navbar-collapse -->
+        </div>
+
+        <!-- /.container-fluid -->
+    </nav>
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
         <div class="container">
@@ -58,7 +74,15 @@
                     <li class="page-scroll">
                         <a href="./index.html#about">About</a>
                     </li>
-                    <li class="page-scroll">
+                    <li class="dropdown" id="sneakersdropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sneakers <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li class="dropdown-header"><a href="./sneakers.html#yeezy">Yeezy</a></li>
+                        <li class="dropdown-header"><a href="./sneakers.html#nmd">NMD</a></li>
+                        <li class="dropdown-header"><a href="./sneakers.html#ub">Ultra Boost</a></li>
+                      </ul>
+                    </li>
+                    <li class="page-scroll" id="sneakers">
                         <a href="#portfolio">Sneakers</a>
                     </li>
                     <li class="page-scroll">
@@ -76,12 +100,16 @@
                     <li class="page-scroll">
                         <a href="./contact.html">Contact</a>
                     </li>
+                    
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
+
         <!-- /.container-fluid -->
     </nav>
+
+ 
 
     <!-- Header -->
 
@@ -91,7 +119,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="pagetitle">Sneakers Gallery</h2>
+                    <h2 class="pagetitle" id="sneakerstitle">Sneakers Gallery</h2>
                     <hr class="star-primary">
                 </div>
             </div>
